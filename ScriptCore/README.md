@@ -14,11 +14,12 @@ QtWebEngine) or printed/text‑viewed.
 
 ## Installation
 
-```powershell
-pip install scriptcore          # from PyPI once published
-# or for development:
-pip install -e .
-``` 
+To install, run:
+pip install git+https://github.com/bdusagamer-netizen/ScriptCore-Python-Lib.git
+
+## Dependencies
+
+PySide is used to load the html code.
 
 PySide6 is a runtime dependency; it is declared in `pyproject.toml` and will be pulled
 in automatically.  On platforms where QtWebEngine is unavailable you can still use the
@@ -50,6 +51,7 @@ Run the script:
 ```powershell
 python main.py
 ```
+or select the main.py in File Explorer and hit enter/return.
 
 A window will open rendering the HTML.  You can copy the standalone script anywhere – it
 does not need access to the package directory.
@@ -66,16 +68,3 @@ launch_viewer(subs)                 # open Qt viewer
 
 The console script `scriptcore` provides `--source`, `--list`, `--extract`, `--open`.
 
-## Publishing
-
-This project uses a minimal `pyproject.toml` (PEP 621).  To build and upload to
-PyPI:
-
-```powershell
-python -m build
-python -m twine upload dist/*
-```
-
-## License
-
-MIT – see LICENSE file.
