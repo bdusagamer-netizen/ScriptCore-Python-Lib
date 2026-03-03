@@ -10,6 +10,7 @@ subfile{
     FileID="index.html"
     is_main="true"
     {
-        <iframe src="https://example.com" width="100%" height="100%"></iframe>
+        <iframe src="html_path_here" width="100%" height="100%"></iframe>
     }
 }
+
