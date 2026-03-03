@@ -1,0 +1,2 @@
+[console_scripts]
+scriptcore = scriptcore.cli:main
