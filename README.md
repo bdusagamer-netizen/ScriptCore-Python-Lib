@@ -15,7 +15,7 @@ QtWebEngine) or printed/text‑viewed.
 ## Installation
 
 To install, run:
-'pip install git+https://github.com/bdusagamer-netizen/ScriptCore-Python-Lib.git'
+`pip install git+https://github.com/bdusagamer-netizen/ScriptCore-Python-Lib.git`
 
 ## Dependencies
 
