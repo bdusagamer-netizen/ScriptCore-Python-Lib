@@ -25,6 +25,13 @@ PySide6 is a runtime dependency; it is declared in `pyproject.toml` and will be 
 in automatically.  On platforms where QtWebEngine is unavailable you can still use the
 `parse_subfiles`/`write_subfiles_to_dir` API without the viewer.
 
+## Starter templates
+
+You can grab one of these starting points:
+
+- [basic template](templates/hello.py)
+- [external-src template](templates/src_template.py)
+
 ## Usage as standalone `main.py`
 
 Create a Python file with embedded SCRIPTCORE blocks:
@@ -67,4 +74,5 @@ launch_viewer(subs)                 # open Qt viewer
 ```
 
 The console script `scriptcore` provides `--source`, `--list`, `--extract`, `--open`.
+
 
