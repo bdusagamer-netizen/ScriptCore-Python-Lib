@@ -15,7 +15,7 @@ QtWebEngine) or printed/text‑viewed.
 ## Installation
 
 To install, run:
-pip install git+https://github.com/bdusagamer-netizen/ScriptCore-Python-Lib.git
+`pip install git+https://github.com/bdusagamer-netizen/ScriptCore-Python-Lib.git`
 
 ## Dependencies
 
@@ -32,36 +32,6 @@ You can grab one of these starting points:
 - [basic template](templates/hello.py)
 - [external-src template](templates/src_template.py)
 
-## Usage as standalone `main.py`
-
-Create a Python file with embedded SCRIPTCORE blocks:
-
-```python
-#!/usr/bin/env python3
-
-import re
-# (parser code omitted for brevity; see provided template)
-
-SCRIPTCORE subfile
-subfile{
-    FileType=".html"
-    FileID="index.html"
-    is_main="true"
-    {
-        <h1>Hello world</h1>
-    }
-}
-```
-
-Run the script:
-
-```powershell
-python main.py
-```
-or select the main.py in File Explorer and hit enter/return.
-
-A window will open rendering the HTML.  You can copy the standalone script anywhere – it
-does not need access to the package directory.
 
 ## CLI / Package API
 
